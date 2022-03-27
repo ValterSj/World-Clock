@@ -1,0 +1,58 @@
+
+body {
+  margin: 0;
+  background-color: rgb(18, 58, 105);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  line-height: 135%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+
+h1 {  
+  color: black;
+}
+
+main {
+  margin: 0 20px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 650px;
+  background-color: white;
+  opacity: 0.95;
+  padding: 20px;
+  border:5px solid black;
+  border-radius: 10px;
+}
+
+header {
+  padding: 30px;
+  margin-bottom: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+nav a {
+  color: rgb(5, 233, 62);
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+nav .active {
+  color: white;
+  font-weight: bold;
+}
+
+
