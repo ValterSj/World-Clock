@@ -60,6 +60,7 @@ async function router() {
   document.querySelector('main').innerHTML = content;
   // run the productLister function (in another file)
   // if the route is '/partials/products.html';
+  route === '/partials/clock.html' && fetchData();
   route === '/partials/clock.html' && setDate();
 }
 
