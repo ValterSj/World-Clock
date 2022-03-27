@@ -1,3 +1,6 @@
+
+
+
 function setDate() {
     const deg = 6;
     const hr = document.querySelector('.hr');
