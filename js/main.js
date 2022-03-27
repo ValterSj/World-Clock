@@ -60,7 +60,7 @@ async function router() {
   document.querySelector('main').innerHTML = content;
   // run the productLister function (in another file)
   // if the route is '/partials/products.html';
-  route === '/partials/products.html' && loadJsonAndDisplayProducts();
+  route === '/partials/clock.html' && setDate();
 }
 
 // runt the router when using the back/forward buttons
